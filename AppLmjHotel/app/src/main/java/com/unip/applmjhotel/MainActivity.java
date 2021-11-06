@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,5 +28,10 @@ public class MainActivity extends AppCompatActivity {
     public void irParaTelaSobre(View view) {
         Intent intent = new Intent(getApplicationContext(), SobreActivity.class);
         startActivity(intent);
+    }
+
+    public void fecharApp(View view) {
+        Toast.makeText(getBaseContext(), "Volte sempre...", Toast.LENGTH_LONG).show();
+        finish();
     }
 }
