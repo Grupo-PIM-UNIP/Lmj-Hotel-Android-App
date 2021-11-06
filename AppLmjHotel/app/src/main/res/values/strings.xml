@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">AppLmjHotel</string>
+    <string name="app_name">LMJ Hotel APP</string>
+    <string name="home">Home</string>
+    <string name="servicos">Serviços</string>
+    <string name="sobre">Sobre</string>
+    <string name="txtRodape">LMJ Hotel desde 2002</string>
+    <string name="txtTelaInicial">Clique em um dos botões abaixo</string>
+    <string name="sair">Sair</string>
 </resources>
