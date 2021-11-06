@@ -6,4 +6,7 @@
     <string name="txtRodape">LMJ Hotel desde 2002</string>
     <string name="txtTelaInicial">Clique em um dos botões abaixo</string>
     <string name="sair">Sair</string>
+    <string name="voltar">Voltar</string>
+    <string name="txtAreaExternaHotel">Área Externa do Hotel</string>
+    <string name="txtSuiteHotel">Suíte do Hotel</string>
 </resources>
