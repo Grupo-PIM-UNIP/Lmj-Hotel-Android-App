@@ -56,10 +56,11 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="40dp"
                 android:background="#090C59"
+                android:onClick="irParaTelaHome"
                 android:text="@string/home"
+                android:textAllCaps="false"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btnServicosView"
@@ -68,10 +69,11 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="30dp"
                 android:background="#090C59"
+                android:onClick="irParaTelaServicos"
                 android:text="@string/servicos"
+                android:textAllCaps="false"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btnSobreView"
@@ -80,10 +82,11 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="30dp"
                 android:background="#090C59"
+                android:onClick="irParaTelaSobre"
                 android:text="@string/sobre"
+                android:textAllCaps="false"
                 android:textColor="#FFFFFF"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btnFecharApp"
@@ -93,9 +96,9 @@
                 android:layout_marginTop="30dp"
                 android:background="#FFFFFF"
                 android:text="@string/sair"
+                android:textAllCaps="false"
                 android:textColor="#090C59"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"

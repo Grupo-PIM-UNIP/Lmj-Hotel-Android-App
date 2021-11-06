@@ -8,23 +8,24 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnTelaSobre;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        btnTelaSobre = findViewById(R.id.btnSobreView);
-        abrirOutraTela(btnTelaSobre);
     }
 
-    private void abrirOutraTela(Button button) {
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, SobreActivity.class));
-            }
-        });
+    public void irParaTelaHome(View view) {
+        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+        startActivity(intent);
+    }
+
+    public void irParaTelaServicos(View view) {
+        Intent intent = new Intent(getApplicationContext(), ServicosActivity.class);
+        startActivity(intent);
+    }
+
+    public void irParaTelaSobre(View view) {
+        Intent intent = new Intent(getApplicationContext(), SobreActivity.class);
+        startActivity(intent);
     }
 }

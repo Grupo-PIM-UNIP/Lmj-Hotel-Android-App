@@ -51,10 +51,11 @@
                     android:layout_marginRight="50dp"
                     android:layout_weight="1"
                     android:background="#FFFFFF"
+                    android:onClick="voltarTelaInicial"
                     android:text="@string/voltar"
+                    android:textAllCaps="false"
                     android:textColor="#090C59"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
