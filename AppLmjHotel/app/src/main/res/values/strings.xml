@@ -9,4 +9,9 @@
     <string name="voltar">Voltar</string>
     <string name="txtAreaExternaHotel">Área Externa do Hotel</string>
     <string name="txtSuiteHotel">Suíte do Hotel</string>
+    <string name="txtservicos">Serviços</string>
+    <string name="txtFloraSpa">Flora Spa</string>
+    <string name="txtClubKids">Club Kids</string>
+    <string name="txtFitnessCenter">Fitness Center</string>
+    <string name="txtSuite">Suítes</string>
 </resources>

@@ -3,11 +3,11 @@ package com.unip.applmjhotel;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class HomeView extends AppCompatActivity {
+public class ServicosActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_view);
+        setContentView(R.layout.activity_servicos);
     }
 }
